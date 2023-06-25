@@ -1,0 +1,19 @@
+.select {
+    border: 1px solid black;
+}
+
+.items {
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.select.active .items {
+    display: block;
+}
+
+.option:hover {
+    transition: background-color .5s;
+    background-color: #1ea7fd;
+    cursor: pointer;
+}
